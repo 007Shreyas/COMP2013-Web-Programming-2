@@ -1,0 +1,70 @@
+#root {
+   font-family: Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* */
+
+
+.Card-Component{
+padding: 10px;
+margin: 0 10px;
+height:350px;
+
+}
+
+.Card-Info{
+text-align: left;
+padding: 0px;
+margin:0px;
+}
+
+.Card-Info h3,
+.Card-Info h4,
+.Card-Info p {
+  margin: 2px 0; 
+  line-height: 1.2; 
+}
+
+.main-container{
+padding: 0px 0px 200px ;
+margin: 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.BannerImage{
+  width: 160px;
+  height: auto;
+  margin:0px;
+  padding:0px;
+  
+}
+
+.Card-Ratings-Red{
+  color: red;
+}
+
+.Card-Ratings-Green{
+  color: green;
+}
+
+hr{
+  height:4px;
+  border:none;
+  background-color:grey;
+}
+
+.custom-font-color{
+  color:grey;
+}
+
+

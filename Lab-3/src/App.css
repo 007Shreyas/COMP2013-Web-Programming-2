@@ -1,0 +1,43 @@
+/*
+Date: 2025-10-08
+Project: Lab-3-ColorBox-(Hooks&States in React)
+Author: Shreyas Bhinkah
+FileName: App.css
+Description: CSS stylesheet for whole app
+*/
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ColorBox {
+background-color: #ff0;
+color: black;
+width: 50px;
+height: 50px;
+cursor: pointer;
+
+}
+
+.ColorBoxesContainer {
+width: 250px;
+height: 250px;
+border: black 2px solid;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+  .ColorBoxesContainer{
+    flex-direction: column;
+  }
+  
+}

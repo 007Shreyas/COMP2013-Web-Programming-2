@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Card {
+ display: flexbox;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px;
+  text-align: center;
+ 
+}
